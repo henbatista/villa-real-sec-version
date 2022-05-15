@@ -24,7 +24,7 @@
 }
 
 #contact .wrapper .col-b img {
-  width:55rem;
+  width: 55rem;
 }
 
 a {
@@ -59,7 +59,7 @@ body {
 .wrapper {
   width: min(50rem, 100%);
   margin-inline: auto;
-  padding-inline: 2.4rem;
+  padding-inline: 1.4rem;
 }
 
 ul {
@@ -712,14 +712,12 @@ body.menu-expanded button path {
 
 .img-one {
   padding: 9.5rem;
-  
 }
 
 .img-two {
   padding-top: 5rem;
   padding-bottom: 1rem;
   padding-left: 2.5rem;
-  
 }
 
 .img-tree {
@@ -728,13 +726,13 @@ body.menu-expanded button path {
   padding-left: 4.7rem;
 }
 
-
 .card:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-.cards {display: flex;
-  width: 10rem;
+.cards {
+  display: flex;
+  width: 5rem;
 }
 
 .cards h3 {
@@ -774,12 +772,12 @@ body.menu-expanded button path {
 #services .cards {
   display: flex;
   flex-direction: column;
-  gap: 4.2rem;
+  gap: 1.2rem;
 }
 
 #services .card {
   text-align: left;
-  min-width: 34.8rem;
+  min-width: 28.8rem;
 
   margin-left: 2.7rem;
 
@@ -1154,7 +1152,6 @@ footer svg {
     text-align: left;
   }
 
-
   #home h1 {
     font-size: 4.9rem;
   }
@@ -1188,7 +1185,7 @@ footer svg {
   }
   /*Services*/
 
-  #services .wrapper{
+  #services .wrapper {
     display: flex;
     width: 35%;
   }
@@ -1198,36 +1195,32 @@ footer svg {
     margin-inline: auto;
   }
 
- 
-
-  #services .card .img-one{
-    margin-top: 6rem;   
-    margin-left: 1rem; 
+  #services .card .img-one {
+    margin-top: 6rem;
+    margin-left: 1rem;
   }
 
-  #services .card .img-two{
-    margin-left: 3rem; 
+  #services .card .img-two {
+    margin-left: 3rem;
     width: 80%;
   }
 
-  #services .card .img-tree{
+  #services .card .img-tree {
     margin-top: 1rem;
-    margin-left: 2rem; 
+    margin-left: 2rem;
     width: 80%;
   }
-  
 
   /*Services*/
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
     grid-template-areas: 'B A';
-    gap: 6.7rem
+    gap: 6.7rem;
   }
 
   #about .col-a {
     align-self: center;
   }
-
 
   #about .content p {
     margin-bottom: 0;
@@ -1243,19 +1236,19 @@ footer svg {
   #contact h2 {
     width: 40.4rem;
   }
-  
+
   /*footer*/
 
- footer .wrapper {
+  footer .wrapper {
     grid-template-columns: 1fr 57.5rem;
     grid-template-areas: 'A B';
   }
 
-  footer  p {
+  footer p {
     margin: 0;
   }
 
-  footer .col-a{
+  footer .col-a {
     align-self: center;
   }
 
@@ -1263,6 +1256,4 @@ footer svg {
     align-self: center;
     padding-left: 20rem;
   }
-
-
 }
