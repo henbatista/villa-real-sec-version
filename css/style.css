@@ -23,9 +23,6 @@
   width: 28rem;
 }
 
-#contact .wrapper .col-b img {
-  width: 55rem;
-}
 
 a {
   text-decoration: none;
@@ -710,82 +707,50 @@ body.menu-expanded button path {
 
 /*Services*/
 
-.img-one {
-  padding: 9.5rem;
-}
-
-.img-two {
-  padding-top: 5rem;
-  padding-bottom: 1rem;
-  padding-left: 2.5rem;
-}
-
-.img-tree {
-  padding-top: 5rem;
-  padding-bottom: 1rem;
-  padding-left: 4.7rem;
-}
-
-.card:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-}
-
-.cards {
-  display: flex;
-  width: 5rem;
-}
-
-.cards h3 {
-  width: 100%;
-  position: absolute;
-  font-weight: 400;
-  color: var(--headline);
-  font-size: 20px;
-  bottom: 0;
-  left: 77.5%;
-  transform: translateX(-48%);
-  opacity: 0;
-  transition: 0.8s;
-}
-
-.card:hover h3 {
-  bottom: 88%;
-  opacity: 1;
-}
-
-#services header h4 {
-  font-size: 1.4rem;
-  line-height: 150%;
-  letter-spacing: 0.08rem;
-
-  color: var(--brand-beige);
-  text-transform: uppercase;
-
-  margin-bottom: 1.6rem;
-}
-
-#services h2 {
+#services header h2 {
   margin-bottom: 6rem;
-  color: var(--headline);
 }
 
 #services .cards {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 3.2rem;
 }
 
 #services .card {
+  padding: 2.4rem;
   text-align: left;
-  min-width: 28.8rem;
 
-  margin-left: 2.7rem;
+  background: white;
 
-  background: var(--brand-beige);
-
-  border: 1px solid var(--headline);
+  border: 1px solid var(--brand-light);
   border-radius: 0.6rem;
 }
+
+#services .card h3 {
+  margin-block: 1.6rem;
+  color: var(--headline);
+  text-align: center;
+}
+
+#services header h4 {
+  color: var(--brand-beige);
+}
+
+#services header h2 {
+  color: var(--headline);
+}
+
+#services .card img {
+  width: 28rem;
+  align-items: center;
+}
+
+/*--------------*/
+
+
+
+
 
 /*about*/
 #about {
@@ -1152,6 +1117,7 @@ footer svg {
     text-align: left;
   }
 
+
   #home h1 {
     font-size: 4.9rem;
   }
@@ -1185,42 +1151,34 @@ footer svg {
   }
   /*Services*/
 
-  #services .wrapper {
-    display: flex;
-    width: 35%;
-  }
-
   #services h2 {
     width: 47rem;
     margin-inline: auto;
   }
 
-  #services .card .img-one {
-    margin-top: 6rem;
-    margin-left: 1rem;
+  #services .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
   }
 
-  #services .card .img-two {
-    margin-left: 3rem;
-    width: 80%;
+  #services .card {
+    width: 30%;
+    flex-grow: 1;
   }
-
-  #services .card .img-tree {
-    margin-top: 1rem;
-    margin-left: 2rem;
-    width: 80%;
-  }
+  
 
   /*Services*/
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
     grid-template-areas: 'B A';
-    gap: 6.7rem;
+    gap: 6.7rem
   }
 
   #about .col-a {
     align-self: center;
   }
+
 
   #about .content p {
     margin-bottom: 0;
@@ -1236,19 +1194,19 @@ footer svg {
   #contact h2 {
     width: 40.4rem;
   }
-
+  
   /*footer*/
 
-  footer .wrapper {
+ footer .wrapper {
     grid-template-columns: 1fr 57.5rem;
     grid-template-areas: 'A B';
   }
 
-  footer p {
+  footer  p {
     margin: 0;
   }
 
-  footer .col-a {
+  footer .col-a{
     align-self: center;
   }
 
@@ -1256,4 +1214,6 @@ footer svg {
     align-self: center;
     padding-left: 20rem;
   }
+
+
 }
